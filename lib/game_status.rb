@@ -16,7 +16,6 @@ WIN_COMBINATIONS = [
   [2,4,6]  #Right start diagonal
 ]
 def won?(board)
-def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
     win_index_1 = win_combinations[0]
     win_index_2 = win_combinations[1]
@@ -45,5 +44,4 @@ def won?(board)
 
   end
 
-end
 end
