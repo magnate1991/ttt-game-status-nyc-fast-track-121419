@@ -15,7 +15,9 @@ WIN_COMBINATIONS = [
   [0,4,8], #Left start diagonal
   [2,4,6]  #Right start diagonal
 ]
+def won?(board)
 
+end
 board = ["X", "X", "X", "O", " ", "O", "O", " ", " "]
 camel = [8, " ", " ", " ", 8, " ", " ", " ", 8]
 
